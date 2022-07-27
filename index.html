@@ -8,10 +8,14 @@
     <title>Document</title>
 </head>
 <style>
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     .result {
         display: block;
-        margin: 0 auto;
-        width: 90%;
+        width: 100%;
         height: 40vh;
         margin-bottom: 1%;
         border: 1px #000 solid;
@@ -21,31 +25,27 @@
     .messages {
         display: block;
         margin: 0 auto;
-        width: 89%;
+        width: 100%;
         height: 15vh;
+        padding: 0;
         margin-bottom: 1%;
     }
 
     button {
         display: block;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         height: 10vh;
+        padding: 0;
         border-radius: 5px;
         border: none;
         cursor: pointer;
         color: #ffffff;
         background-color: rgb(231, 120, 80);
-
     }
 </style>
 
 <body>
-    <div class="result"></div>
-    <label for="messages">
-        <input class="messages" type="text" id="messages" placeholder="Введите сообщение" />
-    </label>
-    <button>Отправить</button>
     <script src="index.js"></script>
 </body>
 
