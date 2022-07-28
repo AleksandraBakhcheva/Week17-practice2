@@ -19,8 +19,7 @@ function addMessage() {
         return 0;
     }
     function checkSpam(str) {
-        let newstr = str.replace(/viagra/gi, "***");
-        let finalstr = newstr.replace(/XXX/gi, "***");
+        let finalstr = str.replace(/viagra|XXX/gi, "***");
         document.querySelector(".result").innerHTML += finalstr + "<br/>";
     }
 }
